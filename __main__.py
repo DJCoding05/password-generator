@@ -7,9 +7,9 @@
 
 
 from PyQt6 import QtCore, QtWidgets
-from dialog import Dialog
+from utils.dialog import Dialog
+from utils.copy import copy_to_clipboard
 from sys import exit, argv
-from copy import copy_to_clipboard
 
 
 class Ui_PasswordGenerator(object):
